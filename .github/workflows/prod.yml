@@ -3,7 +3,7 @@ name: Prod Terraform CI/CD
 on:
   push:
     branches:
-      - production
+      - main
 jobs:
   job1:
     runs-on: ubuntu-latest
