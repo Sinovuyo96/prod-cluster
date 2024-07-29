@@ -1,4 +1,4 @@
-module "eks-cluster-us-east-1" {
+module "prod-eks-cluster" {
   source                      = "../../terraform/"
   terraform_state_bucket_name = "eks-application-state-bucket"
     
