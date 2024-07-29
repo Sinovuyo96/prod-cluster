@@ -1,5 +1,5 @@
 module "prod-eks-cluster" {
-  source                      = "../../terraform/"
+  source                      = "https://github.com/Sinovuyo96/cluster-001"
   terraform_state_bucket_name = "eks-application-state-bucket"
     
   # Networking configs
