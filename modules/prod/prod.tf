@@ -7,7 +7,7 @@ module "prod-eks-cluster" {
   subnet_ids                  = ["subnet-0b1e7f1454f06cb6d", "subnet-059c8e094ccf3c501"]
     
   # eks cluster settings      
-  cluster_name                = "prod-cluster"
+  cluster_name                = "prod-cluster-002"
   node_group_name             = "prod-node-group-002"
   
   # ingress alb service account
