@@ -9,6 +9,7 @@ module "prod-eks-cluster" {
   # eks cluster settings      
   cluster_name                = "prod-cluster-002"
   node_group_name             = "prod-node-group-002"
+  clw-logs                    = "eks-cluster-logs"
   
   # ingress alb service account
 #  aws_alb_serv_account_name   = "aws-load-balancer-controller"
