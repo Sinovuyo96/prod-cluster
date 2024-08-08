@@ -1,6 +1,6 @@
 module "prod-eks-cluster" {
   source                      = "github.com/Sinovuyo96/cluster-001//terraform?ref=main"
-  terraform_state_bucket_name = "eks-application-state-bucket"
+ # terraform_state_bucket_name = "eks-application-state-bucket"
     
   # Networking configs
   vpc_id                      = "vpc-0385ea3024f3ae4b9"
