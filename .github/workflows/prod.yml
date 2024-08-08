@@ -42,4 +42,4 @@ jobs:
       - name: Terraform Apply Stage
         run: |
           cd modules/prod
-          terraform apply -auto-approve -lock=false
+          terraform destroy -auto-approve -lock=false
