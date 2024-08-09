@@ -4,7 +4,7 @@ module "prod-eks-cluster" {
     
   # Networking configs
   vpc_id                      = "vpc-0385ea3024f3ae4b9"
-  subnet_ids                  = ["subnet-0b1e7f1454f06cb6d", "subnet-059c8e094ccf3c501"]
+  subnet_ids                  = ["subnet-0ef0cd3d8180852ca", "subnet-0400fee8b26b4fb6b"]
     
   # eks cluster settings      
   cluster_name                = "prod-cluster-002"
