@@ -3,8 +3,8 @@ module "prod-eks-cluster" {
  # terraform_state_bucket_name = "eks-application-state-bucket"
     
   # Networking configs
-  vpc_id                      = "vpc-09f211e455bd7789d"
-  subnet_ids                  = ["subnet-0c35c82522d91b23c", "subnet-01b282ab55e016843", "subnet-0a4a2e6d1bf13943d"]
+  vpc_id                      = "vpc-04d70bb1cb1e989ff"
+  subnet_ids                  = ["subnet-04358d1f589b8e90f", "subnet-0f778974d05c78dab", "subnet-05971909e6af464a9"]
     
   # eks cluster settings      
   cluster_name                = "prod-cluster-002"
